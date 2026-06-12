@@ -8,4 +8,4 @@ RUN chmod +rx /code/pi.py
 
 ENV PATH="/code:$PATH"
 
-
+CMD ["pi.py", "-h"]
